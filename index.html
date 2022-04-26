@@ -1,0 +1,1628 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="icons/shopping/css/all.css">
+      <link rel="stylesheet" href="icons/search/1/css/all.css">
+      <link rel="stylesheet" href="icons/heart/css/all.css">
+      <link rel="stylesheet" href="icons/error/css/all.css">
+      <link rel="stylesheet" href="icons/links/1/css/all.css">
+      <title>MAHMOUD shop</title>
+      <style>
+         body{
+         margin: 0px;
+         }
+         /*header1*/
+         .hd1{
+         width: 100%;
+         height: 80px;
+         background-color: white;
+         top: 0px;
+         position: fixed;
+         z-index: 100;
+         }
+         .d1{
+         width: 10%;
+         height: 50px;
+         float: left;
+         margin-top: 15px;
+         margin-left: 150px;
+         }
+         .d1 img{
+         width: 100%;
+         height: 100%;
+         }
+         .d2{
+         width: 30%;
+         height: 50px;
+         background-color: white;
+         float: left;
+         margin-top: 15px;
+         margin-left: 50px;
+         }
+         .d3{
+         width: 10%;
+         height: 50px;
+         background-color: white;
+         float: right;
+         margin-top: 15px;
+         margin-right: 150px;
+         }
+         #fas1{
+         margin-top: 10px;
+         color: black;
+         font-size: 25px;
+         }
+         #fas1:hover{
+         color: #6c7ae0;
+         cursor: pointer;
+         }
+         #fas2{
+         margin-top: 10px;
+         margin-left: 20px;
+         color: black;
+         font-size: 25px;
+         }
+         #fas2:hover{
+         color: gold;
+         cursor: pointer;
+         }
+         #fas3{
+         margin-top: 10px;
+         margin-left: 20px;
+         color: black;
+         font-size: 25px;
+         }
+         #fas3:hover{
+         color: red;
+         cursor: pointer;
+         }
+         .as1{
+         margin-left: 20px;
+         text-decoration: none;
+         color: black;
+         font-size: 22px;
+         padding-top: 10px;
+         display:inline-flex;
+         }
+         .as1:hover{
+         color: #6c7ae0;
+         }
+         /*end header1*/
+         /*d4*/
+         .d4{
+         width: 100%;
+         height: 1000px;
+         background-image: url(photo/215.jpg);
+         background-repeat: no-repeat;
+         }
+         .pc1{
+         margin: 0px;
+         padding-top:  250px;
+         padding-left:  250px;
+         font-size: 30px;
+         }
+         .pc2{
+         margin: 0px;
+         padding-top:  50px;
+         padding-left:  250px;
+         font-size: 60px;
+         }
+         .bu1{
+         margin-left:  250px;
+         margin-top:  50px;
+         width: 200px;
+         height: 50px;
+         color: white;
+         background-color:#6c7ae0;
+         border: none;
+         border-radius: 50px;
+         font-size: 25px;
+         cursor: pointer; 
+         }
+         .bu1:hover{
+         background-color: #212529;
+         }
+         .grid1{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         width: 900px;
+         height: 300px;
+         margin-top: 100px;
+         margin-left: 20px;
+         }
+         .du1{
+         width: 300px;
+         height: 300px;
+         position: relative;
+         }
+         @keyframes show1{
+         0%   { left:0px; top:0px;}
+         25%  {left:50px; top:0px;}
+         50%  {left:50px; top:50px;}
+         75%  {left:0px; top:50px;}
+         100% {left:0px; top:0px;}
+         }
+         .du1:hover{
+         background-color: black;
+         color: white;
+         animation-name: show1;
+         animation-duration: 1s;
+         animation-iteration-count:infinite;
+         cursor: pointer;
+         }
+         .du1 img{
+         width: 300px;
+         height: 250px;
+         }
+         .du1 p{
+         font-size: 17px;
+         }
+         /*end d4*/
+         /*grid2*/
+         .grid2{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 5px;
+         width: 1505px; 
+         height: 300px;
+         margin-left: 100px;
+         margin-top: 100px;
+         }
+         .d5{
+         width: 500px;
+         height: 300px;
+         background-image: url(photo/219.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: right;
+         border: 1px solid black;
+         }
+         .d5:hover{
+         background-image: url(photo/238.jpg);
+         background-repeat: no-repeat;
+         background-size: contain;
+         background-position: right;
+         background-color: #dac6bd;
+         }
+         .d6{
+         width: 500px;
+         height: 300px;
+         background-image: url(photo/218.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: right;
+         border: 1px solid black;
+         }
+         .d6:hover{
+         background-image: url(photo/239.jpg);
+         background-repeat: no-repeat;
+         background-size: contain;
+         background-position: right;
+         background-color: #929294;  
+         }
+         .d7{
+         width: 500px;
+         height: 300px;
+         background-image: url(photo/220.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: right;
+         border: 1px solid black;
+         }
+         .d7:hover{
+         background-image: url(photo/241.jpg);
+         background-repeat: no-repeat;
+         background-size: contain;
+         background-position: right;
+         }
+         .p1{
+         margin-left: 10px;
+         margin-top: 20px;
+         font-size: 25px;
+         }
+         .p2{
+         margin-left: 10px;
+         margin-top: 10px;
+         font-size: 20px;
+         }
+         .a1{
+         margin-left: 10px;
+         font-size: 20px;
+         text-decoration:none;
+         }
+         /*end grid2*/
+         /*ph1*/
+         .ph1{
+         font-size: 30px;
+         margin-left: 100px;
+         margin-top: 100px;
+         }
+         /*end ph1*/
+         /*end grid3*/
+         .grid3{
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         grid-gap: 10px;
+         background-color: white;
+         width: 1520px; 
+         height: 2500px;
+         margin-left: 100px;
+         margin-top: 20px;
+         }
+         #ch1{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch2{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch3{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch4{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch5{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch6{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch7{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch8{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch9{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch10{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch11{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch12{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch13{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch14{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch15{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         #ch16{
+         width: 370px;
+         height: 600px;
+         position: relative;
+         }
+         .imgh1{
+         width: 100%;
+         height: 500px;
+         }
+         .ah1{
+         text-decoration: none;
+         color: gray;
+         font-size: 20px;
+         }
+         .ah1:hover{
+         color: #6c7ae0;
+         }
+         #fas4{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas4:hover{
+         color: #6c7ae0;
+         }
+         #fas5{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas5:hover{
+         color: #6c7ae0;
+         }
+         #fas6{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas6:hover{
+         color: #6c7ae0;
+         }
+         #fas7{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas7:hover{
+         color: #6c7ae0;
+         }
+         #fas8{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas8:hover{
+         color: #6c7ae0;
+         }
+         #fas9{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas9:hover{
+         color: #6c7ae0;
+         }
+         #fas10{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas10:hover{
+         color: #6c7ae0;
+         }
+         #fas11{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas11:hover{
+         color: #6c7ae0;
+         }
+         #fas12{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas12:hover{
+         color: #6c7ae0;
+         }
+         #fas13{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas13:hover{
+         color: #6c7ae0;
+         }
+         #fas14{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas14:hover{
+         color: #6c7ae0;
+         }
+         #fas15{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas15:hover{
+         color: #6c7ae0;
+         }
+         #fas16{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas16:hover{
+         color: #6c7ae0;
+         }
+         #fas17{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas17:hover{
+         color: #6c7ae0;
+         }
+         #fas18{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas18:hover{
+         color: #6c7ae0;
+         }
+         #fas19{
+         font-size: 25px;
+         float: right;
+         cursor: pointer;
+         }
+         #fas19:hover{
+         color: #6c7ae0;
+         }
+         .ph2{
+         font-size: 20px;
+         color: gray;
+         }
+         .bf1{
+         width: 100px;
+         height: 50px;
+         border: none;
+         border-radius: 50px;
+         margin-left: 10px;
+         cursor: pointer;
+         background-color: black;
+         color: white;
+         font-size: 16px;
+         }
+         .bf1:hover{
+         background-color: #6c7ae0;
+         color: white;
+         }
+         .df1{
+         width: 700px;
+         height: 50px;
+         margin-left: 90px;
+         }
+         .bf2{
+         width: 200px;
+         height: 50px;
+         background-color: black;
+         color: white;
+         font-size: 20px;
+         border: none;
+         border-radius: 50px;
+         cursor: pointer;
+         margin-top: 20px;
+         margin-left: 700px;
+         }
+         .bf2:hover{
+         background-color: #6c7ae0;
+         color: white;
+         }
+         /*end grid3*/
+         .ds2{
+         position: absolute;
+         bottom: 100%;
+         left: 0px;
+         right: 0px;
+         overflow:hidden;
+         width: 100%;
+         height: 0px;
+         transition: .4s ease;  
+         background-color: none;
+         }
+         #ch1:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch2:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch3:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch4:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch5:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch6:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch7:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch8:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch9:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch10:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch11:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch12:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch13:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch14:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch15:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         #ch16:hover .ds2 {
+         height: 10%;
+         bottom: 20%;
+         }
+         .bs1{
+         white-space: nowrap; 
+         color: black;
+         font-size: 20px;
+         position: absolute;
+         overflow: hidden;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         background-color: white;
+         border: none;
+         border-radius: 50px;
+         width: 150px;
+         height: 50px;
+         cursor: pointer;
+         }
+         .bs1:hover{
+         color: white;
+         background-color: #6c7ae0;
+         }
+         /*none*/
+         .dn1{
+         width: 100%;
+         height: 100%;
+         background-color: white;
+         display: none;
+         position: fixed;
+         top: 0px;
+         opacity: 0.9;
+         color: black;
+         text-align: center;
+         z-index: 150;
+         }
+         .fo1{
+         width: 50%;
+         height: 500px;
+         background-color: white;
+         margin-top: 15%;
+         margin-left: 20%;
+         }
+         #inp1{
+         width: 100%;
+         height: 100px;
+         font-size: 50px;
+         background-color: white;
+         }
+         #bi1{
+         width: 200px;
+         height: 100px;
+         color: white;
+         background-color: black;
+         margin-top: 50px;
+         font-size: 50px;
+         border: none;
+         border-radius: 50px;
+         cursor: pointer;
+         }
+         #bi1:hover{
+         color: white;
+         background-color: #6c7ae0;
+         }
+         #hi1{
+         font-size: 50px;
+         float: right;
+         color: black;
+         cursor: pointer;
+         }
+         #hi1:hover{
+         color: white;
+         background-color: black;
+         }
+         #dsh1{
+         width: 75%;
+         height: 100%;
+         left: 0px;
+         position: fixed;
+         background-color: black;
+         display: none;
+         opacity: 0.7;
+         top: 0px;
+         z-index: 150;
+         }
+         #dsh2{
+         width: 25%;
+         height: 100%;
+         right: 0px;
+         position: fixed;
+         background-color: white;
+         display: none;
+         top: 0px;
+         z-index: 150;
+         }
+         .shdh1{
+         width: 80%;
+         height: 50px;
+         background-color: white;
+         margin-left: 10%;
+         margin-top: 100px;
+         }
+         .shdh2{
+         width: 80%;
+         height: 100px;
+         background-color: white;
+         margin-left: 10%;
+         margin-top: 50px;
+         }
+         .shdh3{
+         width: 80%;
+         height: 100px;
+         background-color: white;
+         margin-left: 10%;
+         margin-top: 50px;
+         }
+         .shdh4{
+         width: 80%;
+         height: 100px;
+         background-color: white;
+         margin-left: 10%;
+         margin-top: 50px;
+         }
+         .shdh5{
+         width: 80%;
+         height: 50px;
+         background-color: white;
+         margin-left: 10%;
+         margin-top: 100px;
+         }
+         .shdh6{
+         width: 80%;
+         height: 60px;
+         background-color: white;
+         margin-left: 10%;
+         margin-top: 50px;
+         }
+         .phdh1{
+         display: inline;
+         font-size: 30px;
+         }
+         #ihdh1{
+         float: right;
+         font-size: 30px;
+         }
+         #ihdh1:hover{
+         color: #6c7ae0;
+         cursor: pointer;
+         }
+         .shdch1{
+         background-color: white;
+         width: 30%;
+         height: 100px;
+         float: left;
+         position: relative;
+         }
+         .shdch2{
+         width: 60%;
+         height: 100px;
+         background-color: white;
+         float: right;
+         }
+         .shdim1{
+         width: 100%;
+         height: 100px;
+         }
+         .overlay1{
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         height: 100%;
+         width: 100%;
+         opacity: 0;
+         transition: .5s ease;
+         background-color: black;
+         }
+         .shdch1:hover .overlay1{
+         opacity: 0.5;
+         cursor: pointer;
+         }
+         .ioy1 {
+         color: white;
+         font-size: 20px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         -webkit-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+         text-align: center;
+         }
+         .ash2{
+         text-decoration: none;
+         color: black;
+         font-size: 20px;
+         }
+         .ash2:hover{
+         color: #6c7ae0;
+         }
+         .psh2{
+         font-size: 20px;
+         margin-top: 50px;
+         }
+         .bsh6{
+         width: 45%;
+         height: 50px;
+         border: none;
+         border-radius: 50px;
+         color: white;
+         background-color: black;
+         cursor: pointer;
+         }
+         .bsh6:hover{
+         background-color: #6c7ae0;
+         }
+
+         /*end none*/
+
+
+
+
+#lnbA{
+      
+      cursor: pointer;
+      font-size: 50px;
+
+      
+   }
+
+   #dnbA{
+
+      width: 100%;
+      height: 300px;
+      display: none;
+      background-color:blue;
+      position: fixed;
+      opacity: 0.5;
+
+   }
+
+   #p1A{
+      
+      cursor: pointer;
+      display: none;
+      font-size: 50px;
+   }
+
+
+
+   .d1A{
+     display: none;
+      
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         @media screen and (max-width: 1000px) {
+
+.d1A{
+      width: 45PX;
+      height: 50px;
+      background-color: red;
+      float: right;
+      margin-top: 15px;
+      margin-right: 10px;
+
+      display: block;
+      
+   }
+
+
+
+
+         .d2{
+         display: none;
+         }
+         .d3{
+         width: 15%;
+         }
+         .fo1{
+         margin-top: 50%;
+         margin-left: 25%;
+         }
+         #dsh1{
+         width: 60%;
+         }
+         #dsh2{
+         width: 40%;
+         }
+         .bsh6{
+         width: 44%;
+         }
+         .d4{
+         background-position: center;
+         }
+         .pc1{
+         padding-left:  50px;
+         }
+         .pc2{
+         padding-left:  50px;
+         }
+         .bu1{
+         margin-left:  50px;
+         }
+         .du1 p{
+         font-size: 15px;
+         }
+         .grid2{
+         grid-template-columns: repeat(1, 1fr);
+         width: 90%; 
+         height: 1000px;
+         margin-left: 5%;
+         }
+         .d5{
+         width: 100%;
+         }
+         .d6{
+         width: 100%;
+         }
+         .d7{
+         width: 100%;
+         }
+         .p1{
+         margin-left: 50px;
+         margin-top: 50px;
+         }
+         .p2{
+         margin-left: 50px;
+         margin-top: 50px;
+         }
+         .a1{
+         margin-left: 50px;
+         }
+         .ph1{
+         margin-left: 50px;
+         }
+         .grid3{
+         grid-template-columns: repeat(1, 1fr);
+         width: 90%; 
+         height: 13500px;
+         margin-left: 50px;
+         }
+         #ch1{
+         width: 100%;
+         height: 800px;
+         }
+         #ch2{
+         width: 100%;
+         height: 800px;
+         }
+         #ch3{
+         width: 100%;
+         height: 800px;
+         }
+         #ch4{
+         width: 100%;
+         height: 800px;
+         }
+         #ch5{
+         width: 100%;
+         height: 800px;
+         }
+         #ch6{
+         width: 100%;
+         height: 800px;
+         }
+         #ch7{
+         width: 100%;
+         height: 800px;
+         }
+         #ch8{
+         width: 100%;
+         height: 800px;
+         }
+         #ch9{
+         width: 100%;
+         height: 800px;
+         }
+         #ch10{
+         width: 100%;
+         height: 800px;
+         }
+         #ch11{
+         width: 100%;
+         height: 800px;
+         }
+         #ch12{
+         width: 100%;
+         height: 800px;
+         }
+         #ch13{
+         width: 100%;
+         height: 800px;
+         }
+         #ch14{
+         width: 100%;
+         height: 800px;
+         }
+         #ch15{
+         width: 100%;
+         height: 800px;
+         }
+         #ch16{
+         width: 100%;
+         height: 800px;
+         }
+         .imgh1{
+         height: 700px;
+         }
+         .ph2{
+         margin-top: 40px;
+         }
+         .df1{
+         margin-left: 40px;
+         }
+         .bf2{
+         margin-left: 400px;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <!--header1-->
+      <header class="hd1">
+         <div class="d1"> <a href="#"><img src="photo/214.png"></a> </div>
+         <div class="d2">
+            <a href="#" class="as1"> Home </a>
+            <a href="#shop" class="as1"> Shop </a>
+            <a href="#" class="as1"> Features </a>
+            <a href="#" class="as1"> Blog </a>
+            <a href="#" class="as1"> About </a>
+            <a href="#" class="as1"> Contact </a>
+         </div>
+          <div class="d1A">
+  
+    <i class="fas fa-times" id="p1A" onClick="hidA()"></i>
+     <i class="fas fa-bars" id="lnbA" onClick="lnbA()"></i>
+     </div>
+
+
+         <div class="d3">
+            <i class="fas fa-search" id="fas1" onClick="shrsho()"></i>
+            <i class="fas fa-shopping-cart" id="fas2" onClick="dsh12()"></i>
+            <i class="fas fa-heart" id="fas3"></i>
+         </div>
+
+
+
+         
+
+
+      </header>
+      <!--end header1-->
+        <div id="dnbA">
+  
+            <a href="#"> Home </a>
+            <a href="#shop"> Shop </a>
+            <a href="#" > Features </a>
+            <a href="#" > Blog </a>
+            <a href="#"> About </a>
+            <a href="#" > Contact </a>
+     
+      
+    </div>
+      <!--none-->
+      <div id="dsh1" onClick="dshhall()">
+      </div>
+      <div id="dsh2">
+         <section class="shdh1">
+            <p class="phdh1"><b>YOUR CART</b></p>
+            <i class="fas fa-times" id="ihdh1" onClick="ihdh12()"></i>
+         </section>
+         <section class="shdh2">
+            <section class="shdch1">
+               <img src="photo/242.jpg" class="shdim1">
+               <div class="overlay1">
+                  <div class="ioy1"> <i class="fas fa-times"></i> </div>
+               </div>
+            </section>
+            <section class="shdch2">
+               <a href="#" class="ash2">White Shirt Pleat</a>
+               <p class="psh2">1 x $19.00</p>
+            </section>
+         </section>
+         <section class="shdh3">
+            <section class="shdch1">
+               <img src="photo/229.jpg" class="shdim1">
+               <div class="overlay1">
+                  <div class="ioy1"> <i class="fas fa-times"></i> </div>
+               </div>
+            </section>
+            <section class="shdch2">
+               <a href="#" class="ash2">Converse All Star</a>
+               <p class="psh2">1 x $39.00</p>
+            </section>
+         </section>
+         <section class="shdh4">
+            <section class="shdch1">
+               <img src="photo/226.jpg" class="shdim1">
+               <div class="overlay1">
+                  <div class="ioy1"> <i class="fas fa-times"></i> </div>
+               </div>
+            </section>
+            <section class="shdch2">
+               <a href="#" class="ash2">Nixon Porter Leather</a>
+               <p class="psh2">1 x $17.00</p>
+            </section>
+         </section>
+         <section class="shdh5">
+            <p class="phdh1">Total: $75.00</p>
+         </section>
+         <section class="shdh6"> <button class="bsh6"> VIEW CART </button> &nbsp; &nbsp; &nbsp; &nbsp;<button class="bsh6">CHECK OUT  </button> </section>
+      </div>
+      <!--end none-->
+      <!--d4-->
+      <div class="d4" id="ds1">
+         <p class="pc1" id="ps1"> Men Collection 2021</p>
+         <p class="pc2" id="ps2"><b>New arrivals</b></p>
+         <button class="bu1">Shop Now</button>
+         <div class="grid1">
+            <div class="du1" onClick="show1()">
+               <img src="photo/215.jpg">
+               <p id="ps3">Men Collection 2021  &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  √  </p>
+            </div>
+            <div class="du1" onClick="show2()">
+               <img src="photo/216.jpg">
+               <p id="ps4">Men New-Season</p>
+            </div>
+            <div class="du1"  onClick="show3()">
+               <img src="photo/217.jpg">
+               <p id="ps5">Women Collection 2021</p>
+            </div>
+         </div>
+      </div>
+      <!--end d4-->
+      <!--grid2-->
+      <div class="grid2">
+         <div class="d5">
+            <p class="p1"><b>Women</b></p>
+            <p class="p2"> Spring 2021</p>
+            <a href="#" class="a1">Shop Now</a>   
+         </div>
+         <div class="d6">
+            <p class="p1"><b>Men</b></p>
+            <p class="p2"> Spring 2021</p>
+            <a href="#" class="a1">Shop Now</a> 
+         </div>
+         <div class="d7">
+            <p class="p1"><b>Accessories</b></p>
+            <p class="p2"> New Trend</p>
+            <a href="#" class="a1">Shop Now</a> 
+         </div>
+      </div>
+      <!--end grid2-->
+      <!--ph-->
+      <p class="ph1" id="shop" ><b>PRODUCT OVERVIEW</b></p>
+      <!--end ph-->
+      <div class="df1">
+         <button class="bf1" onClick="sa()"> All Products</button>
+         <button class="bf1" onClick="sw()"> Women</button>
+         <button class="bf1" onClick="sm()"> Men</button>
+         <button class="bf1" onClick="sb()"> Bag</button>
+         <button class="bf1" onClick="sh()"> Shoes</button>
+         <button class="bf1" onClick="swa()"> Watches</button>
+      </div>
+      <div class="grid3" id="g1">
+         <div id="ch1">
+            <img src="photo/221.jpg" class="imgh1">
+            <a href="#" class="ah1">Esprit Ruffle Shirt </a>  <i class="fas fa-heart" id="fas4"></i>
+            <p class="ph2">$16.64</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch2">
+            <img src="photo/222.jpg" class="imgh1">
+            <a href="#" class="ah1">Herschel supply</a>  <i class="fas fa-heart" id="fas5"></i>  
+            <p class="ph2">$35.31</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch3">
+            <img src="photo/223.jpg" class="imgh1"><a href="#" class="ah1">Only Check Trouser </a>  <i class="fas fa-heart" id="fas6"></i>  
+            <p class="ph2">$25.50</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch4">
+            <img src="photo/224.jpg" class="imgh1"><a href="#" class="ah1">Classic Trench Coat </a>  <i class="fas fa-heart" id="fas7"></i>  
+            <p class="ph2">$75.00</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch5">
+            <img src="photo/225.jpg" class="imgh1"><a href="#" class="ah1">Front Pocket Jumper </a>  <i class="fas fa-heart" id="fas8"></i>  
+            <p class="ph2">$34.75</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch6">
+            <img src="photo/226.jpg" class="imgh1"><a href="#" class="ah1">Vintage Inspired Classic </a>  <i class="fas fa-heart" id="fas9"></i>  
+            <p class="ph2">$93.20</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch7">
+            <img src="photo/227.jpg" class="imgh1"><a href="#" class="ah1">Shirt in Stretch Cotton </a>  <i class="fas fa-heart" id="fas10"></i>  
+            <p class="ph2">$52.66</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch8">
+            <img src="photo/228.jpg" class="imgh1"><a href="#" class="ah1">Pieces Metallic Printed </a>  <i class="fas fa-heart" id="fas11"></i>  
+            <p class="ph2">$18.96</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch9">
+            <img src="photo/229.jpg" class="imgh1"><a href="#" class="ah1">Converse All Star Hi Plimsolls </a>  <i class="fas fa-heart" id="fas12"></i>  
+            <p class="ph2">$75.00</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch10">
+            <img src="photo/230.jpg" class="imgh1"><a href="#" class="ah1">Femme T-Shirt In Stripe </a>  <i class="fas fa-heart" id="fas13"></i>  
+            <p class="ph2">$25.85</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch11">
+            <img src="photo/231.jpg" class="imgh1"><a href="#" class="ah1">Herschel supply </a>  <i class="fas fa-heart" id="fas14"></i>  
+            <p class="ph2">$63.16</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch12">
+            <img src="photo/232.jpg" class="imgh1"><a href="#" class="ah1">Herschel supply </a>  <i class="fas fa-heart" id="fas15"></i>  
+            <p class="ph2">$63.15</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch13">
+            <img src="photo/234.jpg" class="imgh1"><a href="#" class="ah1">T-Shirt with Sleeve </a>  <i class="fas fa-heart" id="fas16"></i>  
+            <p class="ph2">$18.49</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch14">
+            <img src="photo/235.jpg" class="imgh1"><a href="#" class="ah1">Pretty Little Thing </a>  <i class="fas fa-heart" id="fas17"></i>  
+            <p class="ph2">$54.79</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch15">
+            <img src="photo/236.jpg" class="imgh1"><a href="#" class="ah1">Mini Silver Mesh Watch </a>  <i class="fas fa-heart" id="fas18"></i>  
+            <p class="ph2">$86.85</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+         <div id="ch16">
+            <img src="photo/237.jpg" class="imgh1"><a href="#" class="ah1">Square Neck Back </a>  <i class="fas fa-heart" id="fas19"></i>  
+            <p class="ph2">$29.64</p>
+            <div class="ds2">
+               <div class="ds3">
+                  <button class="bs1">Quick View</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <button class="bf2">LOAD MORE</button>
+      <!--none-->
+      <div class="dn1" id="dn1" >
+         <form class="fo1">
+            <i class="fas fa-times" id="hi1" onClick="hidn()"></i>
+            <input type="text" placeholder="search" id="inp1">
+            <button id="bi1">
+            <i class="fas fa-search"></i>
+            </button>
+         </form>
+      </div>
+      <!--end none-->
+      <script>
+         function  show1(){
+         document.getElementById("ds1").style.backgroundImage="url(photo/215.jpg)";
+         document.getElementById("ps1").innerHTML=" Men Collection 2021 ";
+         document.getElementById("ps2").innerHTML="<b>New arrivals</b>";
+         document.getElementById("ps3").innerHTML="Men Collection 2021  &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  √";
+         document.getElementById("ps4").innerHTML="Men New-Season";
+         document.getElementById("ps5").innerHTML="Women Collection 2021";
+         
+         }
+         function  show2(){
+         document.getElementById("ds1").style.backgroundImage="url(photo/216.jpg)";
+         
+         document.getElementById("ps1").innerHTML="Men New-Season";
+         document.getElementById("ps2").innerHTML="<b>Jackets &amp; Coats</b>";
+         document.getElementById("ps4").innerHTML="Men New-Season  &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;    √";
+         document.getElementById("ps3").innerHTML="Men Collection 2021 ";
+         document.getElementById("ps5").innerHTML="Women Collection 2021 ";
+         
+         }
+         function  show3(){
+         document.getElementById("ds1").style.backgroundImage="url(photo/217.jpg)";
+         document.getElementById("ps1").innerHTML="Women Collection 2021";
+         document.getElementById("ps2").innerHTML="<b>NEW SEASON</b>";
+         document.getElementById("ps5").innerHTML="Women Collection 2021  &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;    √";
+         document.getElementById("ps3").innerHTML="Men Collection 2021 ";
+         document.getElementById("ps4").innerHTML="Men New-Season ";
+         }
+         
+         
+         
+         function sa(){
+         document.getElementById("ch1").style.display="block";
+         document.getElementById("ch2").style.display="block";
+         document.getElementById("ch3").style.display="block";
+         document.getElementById("ch4").style.display="block";
+         document.getElementById("ch5").style.display="block";
+         document.getElementById("ch6").style.display="block";
+         document.getElementById("ch7").style.display="block";
+         document.getElementById("ch8").style.display="block";
+         document.getElementById("ch9").style.display="block";
+         document.getElementById("ch10").style.display="block";
+         document.getElementById("ch11").style.display="block";
+         document.getElementById("ch12").style.display="block";
+         document.getElementById("ch13").style.display="block";
+         document.getElementById("ch14").style.display="block";
+         document.getElementById("ch15").style.display="block";
+         document.getElementById("ch16").style.display="block";
+         
+         
+         
+         
+         if(screenLeft<=1000){
+         
+         document.getElementById("g1").style.height="auto";
+         
+         }
+         else{
+            
+         
+         document.getElementById("g1").style.height="2500px";
+         
+         
+         
+         }
+         
+         
+         
+         
+         }
+         
+         
+         
+         function sw(){
+         document.getElementById("ch1").style.display="block";
+         document.getElementById("ch2").style.display="block";
+         document.getElementById("ch3").style.display="none";
+         document.getElementById("ch4").style.display="block";
+         document.getElementById("ch5").style.display="block";
+         document.getElementById("ch6").style.display="none";
+         document.getElementById("ch7").style.display="none";
+         document.getElementById("ch8").style.display="block";
+         document.getElementById("ch9").style.display="none";
+         document.getElementById("ch10").style.display="block";
+         document.getElementById("ch11").style.display="none";
+         document.getElementById("ch12").style.display="none";
+         document.getElementById("ch13").style.display="block";
+         document.getElementById("ch14").style.display="block";
+         document.getElementById("ch15").style.display="none";
+         document.getElementById("ch16").style.display="block";
+         
+         
+         if(screenLeft<=1000){
+         
+         document.getElementById("g1").style.height="auto";
+         
+         }
+         
+         else{
+         document.getElementById("g1").style.height="1900px";
+         
+         }
+         
+         
+         
+         
+         
+         }
+         
+         
+         function sm(){
+         document.getElementById("ch1").style.display="none";
+         document.getElementById("ch2").style.display="none";
+         document.getElementById("ch3").style.display="block";
+         document.getElementById("ch4").style.display="none";
+         document.getElementById("ch5").style.display="none";
+         document.getElementById("ch6").style.display="none";
+         document.getElementById("ch7").style.display="none";
+         document.getElementById("ch8").style.display="none";
+         document.getElementById("ch9").style.display="none";
+         document.getElementById("ch10").style.display="none";
+         document.getElementById("ch11").style.display="block";
+         document.getElementById("ch12").style.display="block";
+         document.getElementById("ch13").style.display="none";
+         document.getElementById("ch14").style.display="none";
+         document.getElementById("ch15").style.display="none";
+         document.getElementById("ch16").style.display="none";
+         
+         if(screenLeft<=1000){
+         
+         document.getElementById("g1").style.height="auto";
+         
+         }
+         
+         else{
+         document.getElementById("g1").style.height="600px";
+         }
+         
+         
+         
+         
+         }
+         
+         function sb(){
+         document.getElementById("ch1").style.display="none";
+         document.getElementById("ch2").style.display="none";
+         document.getElementById("ch3").style.display="none";
+         document.getElementById("ch4").style.display="none";
+         document.getElementById("ch5").style.display="none";
+         document.getElementById("ch6").style.display="none";
+         document.getElementById("ch7").style.display="none";
+         document.getElementById("ch8").style.display="none";
+         document.getElementById("ch9").style.display="none";
+         document.getElementById("ch10").style.display="none";
+         document.getElementById("ch11").style.display="none";
+         document.getElementById("ch12").style.display="none";
+         document.getElementById("ch13").style.display="none";
+         document.getElementById("ch14").style.display="none";
+         document.getElementById("ch15").style.display="none";
+         document.getElementById("ch16").style.display="none";
+         
+         
+         if(screenLeft<=1000){
+         
+         document.getElementById("g1").style.height="200px";
+         
+         }
+         
+         else{
+         document.getElementById("g1").style.height="100px";
+         }
+         
+         }
+         
+         function sh(){
+         document.getElementById("ch1").style.display="none";
+         document.getElementById("ch2").style.display="none";
+         document.getElementById("ch3").style.display="none";
+         document.getElementById("ch4").style.display="none";
+         document.getElementById("ch5").style.display="none";
+         document.getElementById("ch6").style.display="none";
+         document.getElementById("ch7").style.display="none";
+         document.getElementById("ch8").style.display="none";
+         document.getElementById("ch9").style.display="block";
+         document.getElementById("ch10").style.display="none";
+         document.getElementById("ch11").style.display="none";
+         document.getElementById("ch12").style.display="none";
+         document.getElementById("ch13").style.display="none";
+         document.getElementById("ch14").style.display="none";
+         document.getElementById("ch15").style.display="none";
+         document.getElementById("ch16").style.display="none";
+         
+         
+         if(screenLeft<=1000){
+         
+         document.getElementById("g1").style.height="auto";
+         
+         }
+         
+         else{
+         document.getElementById("g1").style.height="600px";
+         }
+         
+         }
+         
+         function swa(){
+         document.getElementById("ch1").style.display="none";
+         document.getElementById("ch2").style.display="none";
+         document.getElementById("ch3").style.display="none";
+         document.getElementById("ch4").style.display="none";
+         document.getElementById("ch5").style.display="none";
+         document.getElementById("ch6").style.display="block";
+         document.getElementById("ch7").style.display="none";
+         document.getElementById("ch8").style.display="none";
+         document.getElementById("ch9").style.display="none";
+         document.getElementById("ch10").style.display="none";
+         document.getElementById("ch11").style.display="none";
+         document.getElementById("ch12").style.display="none";
+         document.getElementById("ch13").style.display="none";
+         document.getElementById("ch14").style.display="none";
+         document.getElementById("ch15").style.display="block";
+         document.getElementById("ch16").style.display="none";
+         
+         
+         if(screenLeft<=1000){
+         
+         document.getElementById("g1").style.height="auto";
+         
+         
+         }
+         
+         else{
+         
+         document.getElementById("g1").style.height="600px";
+         
+         }
+         
+         }
+         
+         
+         
+         
+         
+         
+         function shrsho(){
+         
+         document.getElementById("dn1").style.display="block";
+         
+         }
+         function hidn(){
+         
+         document.getElementById("dn1").style.display="none";
+         
+         }
+         function dsh12(){
+         document.getElementById("dsh1").style.display="block";
+         document.getElementById("dsh2").style.display="block";
+         }
+         function dshhall(){
+         document.getElementById("dsh1").style.display="none";
+         document.getElementById("dsh2").style.display="none";
+         }
+         function ihdh12(){
+         document.getElementById("dsh1").style.display="none";
+         document.getElementById("dsh2").style.display="none";
+         }
+
+         function lnbA(){
+      
+      document.getElementById("dnbA").style.display="block";
+      document.getElementById("lnbA").style.display="none";
+      document.getElementById("p1A").style.display="block";
+
+
+         setTimeout(hideA,5000);
+
+         function hideA(){
+         document.getElementById('dnbA').style.display='none';
+         document.getElementById("p1A").style.display="none";
+         document.getElementById("lnbA").style.display="block";
+
+        }
+      
+
+        
+      
+   }
+      function hidA(){
+      
+      document.getElementById("dnbA").style.display="none";
+      document.getElementById("lnbA").style.display="block";
+      document.getElementById("p1A").style.display="none";
+
+      
+      
+   }
+         
+      
+   
+         
+      </script>
+   </body>
+</html>
